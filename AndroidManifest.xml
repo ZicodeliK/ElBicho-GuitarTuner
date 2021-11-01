@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="2"
+    android:versionName="1.1"
+    android:compileSdkVersion="29"
+    android:compileSdkVersionCodename="10"
+    package="org.sidor.androidapps.simpletuner"
+    platformBuildVersionCode="29"
+    platformBuildVersionName="10">
+
+    <uses-sdk
+        android:minSdkVersion="7" />
+
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:label="@ref/0x7f040000"
+        android:icon="@ref/0x7f020000"
+        android:debuggable="false"
+        android:versionCode="2"
+        android:versionName="1.1">
+
+        <activity
+            android:label="@ref/0x7f040000"
+            android:name="org.sidor.androidapps.simpletuner.SimpleGuitarTunerActivity">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
